@@ -58,7 +58,7 @@ To create this plot, we draw several sample means and concentrations from the Be
 </p>
 
 ### Performing the Inference
-The Bayesian inference for this project was performed using NumPyro. I used the Hamiltonian Monte Carlo algorithm to sample from the posterior distribution, and drew 2000 samples across 4 chains with a warmup of 1000. The full code to run the model is included in the linked repository, although I'm unfortunately unable to provide an unredacted list of the cards since I want them to remain undisclosed in case I choose to extend this study. The mathematical specification of the model is included as the end of this post for the interested reader. The results are shown below (Figure 1), indicating no divergences and an a Gelman-Rubin convergence diagnostic value of 1.0 for all parameters (this is good).
+The Bayesian inference for this project was performed using NumPyro. I used the Hamiltonian Monte Carlo algorithm to sample from the posterior distribution, and drew 2000 samples across 4 chains with a warmup of 1000. The full code to run the model is included in the linked repository, although I'm unfortunately unable to provide an unredacted list of the cards since I want them to remain undisclosed in case I choose to extend this study. The mathematical specification of the model is included as the end of this post for the interested reader. The results are shown below (Figure 1), indicating no divergences and a Gelman-Rubin convergence diagnostic value of 1.0 for all parameters (this is good).
 
 <p align="center">
   <img src="https://github.com/A-J-V/pokemon_card_grading_analysis/assets/72227828/caa8e5f1-d6ff-40eb-8380-5fd36ae244bd" alt="Summary of Sampling from the Posterior"><br>
